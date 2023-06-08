@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		741DDCA92A32853500A38AC8 /* CEShiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 741DDCA82A32853500A38AC8 /* CEShiViewController.m */; };
+		741DDCAE2A3286C800A38AC8 /* YYCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 741DDCAA2A3286C800A38AC8 /* YYCell.m */; };
+		741DDCAF2A3286C800A38AC8 /* YYNews.m in Sources */ = {isa = PBXBuildFile; fileRef = 741DDCAC2A3286C800A38AC8 /* YYNews.m */; };
+		741DDCB12A3287E800A38AC8 /* resource.plist in Resources */ = {isa = PBXBuildFile; fileRef = 741DDCB02A3287E800A38AC8 /* resource.plist */; };
 		74A89DA12A2F15DD009BB2FB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74A89DA02A2F15DD009BB2FB /* AppDelegate.m */; };
 		74A89DA42A2F15DD009BB2FB /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74A89DA32A2F15DD009BB2FB /* SceneDelegate.m */; };
 		74A89DA72A2F15DD009BB2FB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74A89DA62A2F15DD009BB2FB /* ViewController.m */; };
@@ -37,6 +41,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		741DDCA72A32853500A38AC8 /* CEShiViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CEShiViewController.h; sourceTree = "<group>"; };
+		741DDCA82A32853500A38AC8 /* CEShiViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CEShiViewController.m; sourceTree = "<group>"; };
+		741DDCAA2A3286C800A38AC8 /* YYCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYCell.m; sourceTree = "<group>"; };
+		741DDCAB2A3286C800A38AC8 /* YYNews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYNews.h; sourceTree = "<group>"; };
+		741DDCAC2A3286C800A38AC8 /* YYNews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYNews.m; sourceTree = "<group>"; };
+		741DDCAD2A3286C800A38AC8 /* YYCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYCell.h; sourceTree = "<group>"; };
+		741DDCB02A3287E800A38AC8 /* resource.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = resource.plist; sourceTree = "<group>"; };
 		74A89D9C2A2F15DD009BB2FB /* YingShi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YingShi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74A89D9F2A2F15DD009BB2FB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		74A89DA02A2F15DD009BB2FB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -110,6 +121,13 @@
 				74A89DA32A2F15DD009BB2FB /* SceneDelegate.m */,
 				74A89DA52A2F15DD009BB2FB /* ViewController.h */,
 				74A89DA62A2F15DD009BB2FB /* ViewController.m */,
+				741DDCAD2A3286C800A38AC8 /* YYCell.h */,
+				741DDCAA2A3286C800A38AC8 /* YYCell.m */,
+				741DDCAB2A3286C800A38AC8 /* YYNews.h */,
+				741DDCAC2A3286C800A38AC8 /* YYNews.m */,
+				741DDCA72A32853500A38AC8 /* CEShiViewController.h */,
+				741DDCA82A32853500A38AC8 /* CEShiViewController.m */,
+				741DDCB02A3287E800A38AC8 /* resource.plist */,
 				74A89DA82A2F15DD009BB2FB /* Main.storyboard */,
 				74A89DAB2A2F15E0009BB2FB /* Assets.xcassets */,
 				74A89DAD2A2F15E0009BB2FB /* LaunchScreen.storyboard */,
@@ -239,6 +257,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				741DDCB12A3287E800A38AC8 /* resource.plist in Resources */,
 				74A89DAF2A2F15E0009BB2FB /* LaunchScreen.storyboard in Resources */,
 				74A89DAC2A2F15E0009BB2FB /* Assets.xcassets in Resources */,
 				74A89DAA2A2F15DD009BB2FB /* Main.storyboard in Resources */,
@@ -269,7 +288,10 @@
 				74A89DA72A2F15DD009BB2FB /* ViewController.m in Sources */,
 				74A89DA12A2F15DD009BB2FB /* AppDelegate.m in Sources */,
 				74A89DB22A2F15E0009BB2FB /* main.m in Sources */,
+				741DDCAF2A3286C800A38AC8 /* YYNews.m in Sources */,
 				74A89DA42A2F15DD009BB2FB /* SceneDelegate.m in Sources */,
+				741DDCA92A32853500A38AC8 /* CEShiViewController.m in Sources */,
+				741DDCAE2A3286C800A38AC8 /* YYCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,6 +467,7 @@
 				DEVELOPMENT_TEAM = 3678RDTJ7R;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = YingShi/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "影视集";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -472,6 +495,7 @@
 				DEVELOPMENT_TEAM = 3678RDTJ7R;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = YingShi/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "影视集";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
